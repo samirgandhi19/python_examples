@@ -113,7 +113,10 @@ if num.isalpha():
 else:
 	num = int(num)
 	check_num(num)
-
+if "d" in "dog":
+	print "yes!"
+if "d" not in ["d","o","g"]:
+	print 'Nope!'
 #Loops
 '''for loops work more like forEach loops in JS'''
 for i in range(5):
